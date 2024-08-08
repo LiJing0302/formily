@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node --inspect -r ts-node/register ./src/how-to-use/index.ts",
+    "build": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/how-to-use/index.ts",
+    "show-config": "ts-node --showConfig",
     "dev": "nodemon"
   },
   "repository": {
