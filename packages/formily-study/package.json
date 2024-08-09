@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node --no-warnings=ExperimentalWarning --loader ts-node/esm ./src/how-to-use/index.ts",
     "show-config": "ts-node --showConfig",
+    "tsc": "tsc ./src/how-to-use/index.ts",
     "dev": "nodemon"
   },
   "repository": {

@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["es2015", "DOM"],
+    "lib": [
+      "es2015",
+      "DOM"
+    ],
     "sourceMap": true,
-    "module": "ESNext",
-    "target": "ESNext",
+    "target": "ES2015",
     "moduleResolution": "node"
   }
 }
